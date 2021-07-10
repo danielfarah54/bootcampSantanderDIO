@@ -8,10 +8,16 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: 3456
+    password: 123456
   jpa:
     show-sql: false
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: false
     hibernate:
       ddl-auto: none
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+
+application:
+  description: Projeto criado para o bootcamp DIO - Santander
