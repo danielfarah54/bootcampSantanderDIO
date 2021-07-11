@@ -20,4 +20,4 @@ springdoc:
     disable-swagger-default-url: true
 
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  description: Projeto criado para o bootcamp DIO - Santander / Backend
